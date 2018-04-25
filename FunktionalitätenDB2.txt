@@ -1,0 +1,64 @@
+Funktionalitäten
+
+Warenkorb
+------------------------------------------------
+				
+Warenkorb zusammenstellen 		C
+anzeigen 				R
+löschen 				D 
+ändern					U 
+Bestand verändern (Lager)		U
+
+Lager
+-------------------------------------------------
+ware anlegen				C
+ware anzeigen 				R
+warebestand ändern			U
+=> wenn Min bestand ware bestellen	Message an Lieferant	
+warelöschen				D
+
+
+Bestellung
+-------------------------------------------------
+Bestellen				C
+ändern					U
+Storno (Löschen)=> Trigger 		D
+=> Trigger Versandstatus checken wenn nicht versendet löschen
+Versandartart wählen 			R
+Zahlungsart wählen 			R
+Warenkorb übernehmen			R
+User übernehmen 			R
+
+Bewertung 
+------------------------------------------------
+Bewertung abgeben 			C
+Bewertung anzeigen			R	
+Bewertung ändern			U
+Bewertung Löschen 			D
+
+Profil
+------------------------------------------------
+Profil anlegen(verschlüsseln)		C
+Profil löschen=> Trigger		D
+Profil Anzeigen				R
+Profil Ändern => Nice To Have 		U
+Smartphone registrieren -> nice to have C
+Log In 					R
+
+Privat oder Geschäft			U	Rechnung U => Trigger 
+Geschäft 
+=> Rabattstruckturen bei großbesellung 	U   
+
+Rechnung
+------------------------------------------------
+Rechnung anzeigen			R
+Rechnung erstellen			C
+Rechnung löschen			D
+Rechnung ändern 			U
+
+Versandart
+------------------------------------------------
+Versandart anzeigen			R
+Versandart erstellen			C
+Versandart löschen			D
+Versandart ändern			U		
